@@ -366,14 +366,14 @@ footer {
     position: absolute;
     top: 100%;
     right: -100%;
-    background-color: #f4f4f4;
-    width: 30rem;
-    height: 100vh;
-    transition: 0.3s;
+    background-color: #eee;
+    width: 15rem;
+    transition: 0.3s ease-in-out;
+    border-radius: 8px;
   }
 
   .nav-link.active {
-    right: 0;
+    right: 3%;
   }
 
   .nav-link a {

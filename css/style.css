@@ -193,6 +193,50 @@ body {
   line-height: 1.6;
 }
 
+
+/* Menu */
+.menu h2 {
+  margin-bottom: 0.5rem;
+}
+
+.menu p {
+  text-align: center;
+  max-width: 30rem;
+  font-weight: 100;
+  font-size: 1.2rem;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.menu-card-img {
+  border-radius: 50%;
+  width: 250px;
+}
+
+.menu-card-title {
+  font-size: 1.3rem;
+  margin: 1rem auto 0.5rem;
+}
+
+.menu-card-price {
+  font-weight: 100;
+}
+
+
+
 /* Responsive Breakpoints */
 
 /* Large */
